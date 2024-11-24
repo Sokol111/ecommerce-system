@@ -16,12 +16,33 @@
     <modules>
         <module>product-boot</module>
         <module>product-db</module>
-        <module>product-domain</module>
+        <module>product-core</module>
         <module>product-rest</module>
     </modules>
 
-    <properties>
-
-    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.sokol.ecommerce</groupId>
+                <artifactId>product-core-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sokol.ecommerce</groupId>
+                <artifactId>product-core-app</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sokol.ecommerce</groupId>
+                <artifactId>product-db</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sokol.ecommerce</groupId>
+                <artifactId>product-rest</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

@@ -8,4 +8,19 @@
     </parent>
     <artifactId>product-boot</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.sokol.ecommerce</groupId>
+            <artifactId>product-core-app</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sokol.ecommerce</groupId>
+            <artifactId>product-rest</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sokol.ecommerce</groupId>
+            <artifactId>product-db</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

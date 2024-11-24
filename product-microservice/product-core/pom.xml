@@ -3,8 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.sokol.ecommerce</groupId>
-        <artifactId>product-domain</artifactId>
+        <artifactId>product-microservice</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>product-domain-app</artifactId>
+    <artifactId>product-core</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>product-core-app</module>
+        <module>product-core-domain</module>
+    </modules>
+
 </project>
