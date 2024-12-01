@@ -1,7 +1,7 @@
 package com.sokol.ecommerce.rest.mapper;
 
-import com.sokol.ecommerce.core.api.Product;
-import com.sokol.ecommerce.core.api.dto.CreateProductDto;
+import com.sokol.ecommerce.core.domain.Product;
+import com.sokol.ecommerce.core.dto.CreateProductDto;
 import com.sokol.ecommerce.rest.dto.CreateProductRequest;
 import com.sokol.ecommerce.rest.dto.ProductResponse;
 import org.springframework.stereotype.Component;
@@ -19,9 +19,9 @@ public class RestProductMapper {
 
     public ProductResponse map(Product product) {
         return ProductResponse.builder()
-            .id(product.getId().getValue())
-            .name(product.getName().getValue())
-            .price(product.getPrice().getValue())
+            .id(product.getId())
+            .name(product.getName())
+            .price(product.getPrice())
             .quantity(product.getQuantity())
             .version(product.getVersion())
             .build();

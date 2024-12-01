@@ -1,6 +1,6 @@
 package com.sokol.ecommerce.rest;
 
-import com.sokol.ecommerce.core.service.AppProductService;
+import com.sokol.ecommerce.core.service.ProductService;
 import com.sokol.ecommerce.rest.dto.CreateProductRequest;
 import com.sokol.ecommerce.rest.dto.ProductResponse;
 import com.sokol.ecommerce.rest.mapper.RestProductMapper;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class ProductController {
 
-    private final AppProductService appProductService;
+    private final ProductService appProductService;
 
     private final RestProductMapper restProductMapper;
 
@@ -22,7 +22,7 @@ public class ProductController {
 
     @PostMapping("/create")
     public ProductResponse createProduct(@RequestBody CreateProductRequest request) {
-        return restProductMapper.map(appProductService.createProduct(restProductMapper.map(request)));
+        return restProductMapper.map(appProductService.create(restProductMapper.map(request)));
     }
 
 

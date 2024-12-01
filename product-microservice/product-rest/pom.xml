@@ -15,7 +15,7 @@
         </dependency>
         <dependency>
             <groupId>com.sokol.ecommerce</groupId>
-            <artifactId>product-core-app</artifactId>
+            <artifactId>product-core-model</artifactId>
         </dependency>
     </dependencies>
 </project>
