@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/commons/commons-value-object/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-value-object/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-microservice/product-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-microservice/product-core/product-core-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-microservice/product-core/product-core-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-microservice/product-core/product-core-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-microservice/product-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-microservice/product-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-microservice/product-db/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/product-microservice/product-domain/product-domain-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/product-microservice/product-domain/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/product-microservice/product-domain/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-microservice/product-rest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-microservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-microservice/src/main/resources" charset="UTF-8" />

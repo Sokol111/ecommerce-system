@@ -6,12 +6,5 @@
         <artifactId>product-core</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>product-core-app</artifactId>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.sokol.ecommerce</groupId>
-            <artifactId>product-core-model</artifactId>
-        </dependency>
-    </dependencies>
+    <artifactId>product-core-model</artifactId>
 </project>
