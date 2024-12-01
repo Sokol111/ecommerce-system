@@ -1,9 +1,12 @@
+mongodb:
+  username: admin
+  password: password
+  hosts: localhost:27017
+  database: product
+  authSource: admin
+  replicaSet: rs0
+
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: marketplaceorchestator
-      username: admin
-      password: password
-      authenticationDatabase: admin
+      uri: mongodb://${mongodb.username}:${mongodb.password}@${mongodb.hosts}/${mongodb.database}?authSource=${mongodb.authSource}&replicaSet=${mongodb.replicaSet}
